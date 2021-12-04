@@ -27,6 +27,7 @@ Interests:
  * Data Science
 
 Research groups:
- * [ToLoCa](http://dgp.cnpq.br/dgp/espelhogrupo/622906)
  * [CiNO](http://www.cino.ufba.br/index.php)
  * [OLA](https://ola.unito.it/)
+ * [ToLoCa](http://dgp.cnpq.br/dgp/espelhogrupo/622906)
+ 
