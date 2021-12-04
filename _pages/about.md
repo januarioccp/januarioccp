@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.ufba.br/">Universidade Federal da Bahia</a>
+description: <a href="https://www.ufba.br/">Tenured Assistant Professor - UFBA</a>
 profile:
   align: right
   image: prof_pic.jpg
@@ -15,18 +15,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Tenured Assistant Professor in the Department of Computer Science, Institute of Computing,
-at the Universidade Federal da Bahia.
 
 Graduated in Computer Science - [Departamento de Informática](www2.dpi.ufv.br), [Universidade Federal de Viçosa](www.ufv.br) (2009), 
 Master (2009) and Ph.D. (2015) in Computer Science - [Graduate Program in Computer Science](https://ppgcc.dcc.ufmg.br/en/), 
 [Universidade Federal de Minas Gerais](www.ufmg.br).
 
-Research interests:
-<ul>
-    <li>Algorithm Analysis and Complexity</li>
-    <li>Operations Research</li>
-    <li>Artificial Intelligence</li>
-	<li>Computational Linguistics</li>
-	<li>Machine Learning</li>
-</ul>
+Interests:
+ * Algorithm Analysis and Complexity
+ * Operations Research
+ * Computational Linguistics
+ * Data Science
+
+Research groups:
+ * [ToLoCa](http://dgp.cnpq.br/dgp/espelhogrupo/622906)
+ * [CiNO](http://www.cino.ufba.br/index.php)
+ * [OLA](https://ola.unito.it/)
