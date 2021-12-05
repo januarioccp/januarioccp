@@ -20,7 +20,65 @@
   abstract = {The exploration of one-factorizations of complete graphs is the foundation of some classical sports scheduling problems. One has to traverse the landscape of such one-factorizations by moving from one of those to a so-called neighbor one-factorization. This approach amounts to modifying locally the coloring associated with a one-factorization. We consider some particular types of modifications and describe various constructions which give one-factorizations which may be modified or not by these techniques. Among those are recoloring of bichromatic cycles, altering of optimally colored subcliques of even size, or recoloring of chordless lanterns.}
 }
 
-@string{aps = {American Physical Society,}}
+@article{JANUARIO20161,
+	abbr={EJOR},
+	title = {Edge coloring: A natural model for sports scheduling},
+	journal = {European Journal of Operational Research},
+	volume = {254},
+	number = {1},
+	pages = {1-8},
+	year = {2016},
+	issn = {0377-2217},
+	doi = {https://doi.org/10.1016/j.ejor.2016.03.038},
+	url = {https://www.sciencedirect.com/science/article/pii/S0377221716301667},
+	html = {https://www.sciencedirect.com/science/article/pii/S0377221716301667},
+	author = {Tiago Januario and Sebastián Urrutia and Celso C. Ribeiro and Dominique {de Werra}},
+	keywords = {OR in sports, Scheduling, Graph theory, Edge coloring, Local search},
+	abstract = {In this work, we consider some basic sports scheduling problems and introduce the notions of graph theory which are needed to build adequate models. We show, in particular, how edge coloring can be used to construct schedules for sports leagues. Due to the emergence of various practical requirements, one cannot be restricted to classical schedules given by standard constructions, such as the circle method, to color the edges of complete graphs. The need of exploring the set of all possible colorings inspires the design of adequate coloring procedures. In order to explore the solution space, local search procedures are applied. The standard definitions of neighborhoods that are used in such procedures need to be extended. Graph theory provides efficient tools for describing various move types in the solution space. We show how formulations in graph theoretical terms give some insights to conceive more general move types. This leads to a series of open questions which are also presented throughout the text.}
+}
+
+@article{JANUARIO2016127,
+	abbr={C&OR},
+	title = {A new neighborhood structure for round robin scheduling problems},
+	journal = {Computers & Operations Research},
+	volume = {70},
+	pages = {127-139},
+	year = {2016},
+	issn = {0305-0548},
+	doi = {https://doi.org/10.1016/j.cor.2015.12.016},
+	url = {https://www.sciencedirect.com/science/article/pii/S0305054815003020},
+	html = {https://www.sciencedirect.com/science/article/pii/S0305054815003020},
+	author = {Tiago Januario and Sebastián Urrutia},
+	keywords = {Sport scheduling problems, Neighborhood structures, Solution space connectivity, Local search heuristics},
+	abstract = {In recent years, several works proposed local search heuristics for round robin sport scheduling problems. It is known that the neighborhood structures used in those works do not fully connect the solution space. The aim of this paper is to present a novel neighborhood structure for single round robin sport scheduling problems. The neighborhood structure is described in graph theory terms and its correctness is proven. We show that the new neighborhood structure increases the connectivity of the solution space when compared to previous neighborhood structures. We evaluate its performance using the Traveling Tournament Problem with Predefined Venues and the Weighted Carry-Over Effects Value Minimization Problem as case studies.}
+}
+
+@INPROCEEDINGS{8786279,
+  abbr={CLEI},
+  author={Guilera, Bruno and Teixeira, Italo and Januario, Tiago},
+  booktitle={2018 XLIV Latin American Computer Conference (CLEI)}, 
+  title={Heuristics for the Mirrored Tournament Traveling Tournament Problem Based on the Home-Away Swap Neighborhood}, 
+  year={2018},
+  pages={167-175},
+  html = {https://ieeexplore.ieee.org/document/8786279},
+  doi={10.1109/CLEI.2018.00028},
+  abstract = {In this paper we present a detailed experimental analysis of the existing neighborhoods in the literature using a few quality criteria and propose new heuristics for the Mirrored Traveling Tournament Problem. Based on the Home-Away Swap, the proposed heuristics are able to search the solution space from an infeasible solution and obtaining a feasible one in the end. We also describe a estrategy for reduce the amount of visited neighborhoods in the local search process without drastically affect the solution, consequently we managed to obtain feasible solutions with reduced computation time, as shown through empirical analysis.}
+  }
+  
+@article{januario2015analytical,
+  abbr={INFORMS},
+  title={An analytical study in connectivity of neighborhoods for single round robin tournaments},
+  author={Januario, T and Urrutia, S},
+  journal={Operations Research and Computing: Algorithms and Software for Analytics},
+  pages={188--199},
+  year={2015},
+  doi = {https://www.informs.org/Publications/ICS-Proceedings/2015-Conference-Volume/ICS-2015-Table-of-Contents},
+  html = {https://www.informs.org/Publications/ICS-Proceedings/2015-Conference-Volume/ICS-2015-Table-of-Contents},
+  publisher={INFORMS},
+  pdf={informs2015.pdf},
+  abstract = {Sport scheduling is a trending research topic in operations research. Local search heuristics are among the most effective methods to construct schedules. Prior studies have investigated the connectivity of existing neighborhoods in the scheduling of single round robin tournaments and determined that they are strongly affected by how the initial schedule is constructed. In this paper we prove that, when constructing the initial schedule with the most popular method (the circle method) and for specific numbers of participating teams, the neighborhoods under consideration are not connected and stay trapped in a tiny portion of the search space. In consequence, search procedures on those neighborhoods are not likely to find good schedules for the tournament. We also introduce a constructive method based on the faro shuffling of playing cards and show its equivalence with the circle method. The faro method is used in the analysis of connectivity of one of the neighborhoods under consideration. We conjecture that, when the faro shuffle permutation has a (n−2)-cycle, the analyzed neighborhood is not connected and it does not allow the search to escape from schedules isomorphic to the initial one. The non-connectivity of the other neighborhood is consequence of a classic result in graph theory.}
+}
+
 
 @book{einstein1956investigations,
   bibtex_show={true},
