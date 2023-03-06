@@ -4,6 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Materials for courses I taught.
 nav: true
+nav_order: 5
 ---
 
 # Universidade Federal da Bahia

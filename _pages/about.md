@@ -6,6 +6,7 @@ description: <a href="https://www.ufba.br/">Tenured Assistant Professor - UFBA</
 profile:
   align: right
   image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Department of Computer Science, Institute of Computing, UFBA, Salvador, Bahia </p>
     <p>januario@ufba.br</p>
